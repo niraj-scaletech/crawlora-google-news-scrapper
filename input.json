@@ -4,7 +4,7 @@
         "datatype": "string",
         "placeholder": "Enter search keywords per line",
         "default": "crawlora",
-        "label": "Google searchs",
+        "label": "Google new searches",
         "regex": "/^.*$/",
         "required": true,
         "name": "searches"

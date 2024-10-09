@@ -1,3 +1,3 @@
 import GetGoogleLinks from "./index";
 
-GetGoogleLinks({ searches: `crawlora\nscaletech` });
+GetGoogleLinks({ searches: `gold medal\nDhoni` });
