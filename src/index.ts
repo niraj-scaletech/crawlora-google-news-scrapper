@@ -33,7 +33,8 @@ export default async function ({
           const source = article.querySelector('.vr1PYe')?.textContent || 'No source';
           const title = article.querySelector('.JtKRv')?.textContent || 'No title';
           const link = (article.querySelector('.JtKRv') as HTMLAnchorElement)?.href || 'No link';
-          const date = article.querySelector('time')?.textContent || 'No date';
+          const dateTime = article.querySelector('time')?.getAttribute('datetime');
+          const date = dateTime ? new Date(dateTime).toLocaleString() : 'No date';
           const image = (article.querySelector('img.Quavad.vwBmvb') as HTMLImageElement)?.src || 'No image found';
 
           return { source, title, link, date, image };
