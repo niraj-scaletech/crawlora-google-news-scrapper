@@ -10,9 +10,10 @@
     ],
     "logo_file": "./assets/logo.png",
     "banner_file": "./assets/banner.png",
-    "title": "Google news searches app starter v1",
+    "title": "Google news scrapper",
     "short_description": "Get google news quickly",
     "version": "1.0.0",
     "documentation_file": "./documentation.md",
-    "input_file": "./input.json"
+    "input_file": "./input.json",
+    "app_id": "d43337b4-0675-450a-9693-87eda9d29052"
 }
